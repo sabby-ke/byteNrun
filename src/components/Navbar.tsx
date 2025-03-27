@@ -34,9 +34,10 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
+          {/* <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
             ByteNRun
-          </span>
+          </span> */}
+          <img src='/download.png' alt='image' style={{ height: "80px", width: "80px" }} />
         </Link>
 
         {/* Desktop Navigation */}
