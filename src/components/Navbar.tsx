@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
             ByteNRun
           </span> */}
-          <img src='/download.png' alt='image' style={{ height: "80px", width: "80px" }} />
+          <img src='/download.png' alt='image' style={{ height: "30%", width: "30%" }} className='w-full h-full object-cover transition-transform duration-700 ease-in-out' />
         </Link>
 
         {/* Desktop Navigation */}
